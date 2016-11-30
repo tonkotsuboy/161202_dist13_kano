@@ -1,0 +1,13 @@
+/** Flexboxで横方向レイアウトの為の指定(3宣言) */
+li {
+  display: flex;
+}
+
+.tweet {
+  flex-grow: 1;
+}
+
+/** 矢印アイコンを上下中央に配置する指定(1宣言) */
+.arrow {
+  align-self: center;
+}

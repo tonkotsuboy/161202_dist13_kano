@@ -1,0 +1,32 @@
+/** floatで横方向レイアウトの為の指定(7宣言) */
+li {
+  overflow: hidden; /* clearfix */
+}
+
+.arrow,
+.tweet,
+.thumb {
+  float: left;
+}
+
+.tweet {
+  width: 100%;
+}
+
+.tweet .tweetInner {
+  margin-left: 105px;
+  margin-right: 34px;
+}
+
+.thumb {
+  margin-right: -105px;
+}
+
+.arrow {
+  margin-left: -34px;
+}
+
+/** 矢印アイコンの縦方向のレイアウト */
+.arrow {
+  margin-top: 26px;
+}

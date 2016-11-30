@@ -1,0 +1,25 @@
+/** position:absoluteで横方向レイアウトの為の指定(8宣言) */
+li {
+  position: relative;
+  min-height: 100px;
+}
+.arrow,
+.thumb {
+  position: absolute;
+}
+.arrow {
+  right: 10px;
+  top: 0;
+}
+.tweet {
+  margin-left: 105px;
+  margin-right: 34px;
+}
+.thumb {
+  left: 10px;
+}
+
+/** 矢印アイコンの縦方向のレイアウト */
+.arrow {
+  margin-top: 26px;
+}
